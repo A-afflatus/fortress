@@ -1,11 +1,13 @@
 import path from "path"
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import { ViteRsw } from 'vite-plugin-rsw';
+// import { ViteRsw } from 'vite-plugin-rsw';
 
 // https://vitejs.dev/config/
 export default defineConfig(async () => ({
-  plugins: [react(),ViteRsw()],
+  plugins: [react(),
+    // ViteRsw()
+  ],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
