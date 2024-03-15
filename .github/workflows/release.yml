@@ -88,6 +88,10 @@ jobs:
         if: matrix.platform == 'windows-latest'
         run: npm install
 
+      - name: npm run build
+        if: matrix.platform == 'windows-latest'
+        run: npm run build
+
       - uses: tauri-apps/tauri-action@v0.5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
