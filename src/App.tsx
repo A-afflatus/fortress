@@ -1,16 +1,16 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { invoke } from "@tauri-apps/api/tauri";
 import {version} from '../package.json';
-import init, { greet as wasmGreet }  from '@mywasm/foo'
+// import init, { greet as wasmGreet }  from '@mywasm/foo'
 
 function App() {
   const [greetMsg, setGreetMsg] = useState("");
   const [name, setName] = useState("");
 
-  useEffect(() => {
-    // ✅ 初始化，加载 wasm 文件
-    init();
-  }, [])
+  // useEffect(() => {
+  //   // ✅ 初始化，加载 wasm 文件
+  //   init();
+  // }, [])
 
   async function greet() {
     // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
@@ -21,7 +21,7 @@ function App() {
     <div className="container">
       <h1>Welcome to fortress!</h1>
       <h2>{version}</h2>
-      <button onClick={()=>wasmGreet()}>Test wasm</button>
+      {/* <button onClick={()=>wasmGreet()}>Test wasm</button> */}
       <p>Click on the Tauri, Vite, and React logos to learn more.</p>
 
       <form
