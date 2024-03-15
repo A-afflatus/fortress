@@ -1,0 +1,78 @@
+{
+  "build": {
+    "beforeDevCommand": "bun run dev",
+    "beforeBuildCommand": "bun run build",
+    "devPath": "http://localhost:1420",
+    "distDir": "../dist",
+    "withGlobalTauri": true
+  },
+  "package": {
+    "productName": "fortress",
+    "version": "../package.json"
+  },
+  "tauri": {
+    "updater": {
+      "active": true,
+      "endpoints": [
+        "https://a-afflatus.github.io/fortress/install.json"
+      ],
+      "dialog": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDE3RDA2NTk1Njc3OUZBMDcKUldRSCtubG5sV1hRRjVJS3NnSGJ3WmhkSWdneHlON0VocjZ6VUVrRmdMY3dPZjJpb0E5bXZNS2kK",
+      "windows": {
+        "installMode": "passive"
+      }
+    },
+    "systemTray": {
+      "iconPath": "icons/icon.png",
+      "iconAsTemplate": false
+    },
+    "macOSPrivateApi": true,
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "all": false,
+        "open": true
+      },
+      "dialog": {
+        "all": true
+      },
+      "fs": {
+        "scope": ["$TEMP"],
+        "all": true
+      }
+    },
+    "windows": [
+      {
+        "title": "fortress",
+        "width": 800,
+        "height": 600,
+        "visible": false
+      },
+      {
+        "width": 400,
+        "height": 300,
+        "decorations": false,
+        "url": "splashscreen.html",
+        "label": "splashscreen",
+        "resizable": false,
+        "transparent": true,
+        "alwaysOnTop": true
+      }
+    ],
+    "security": {
+      "csp": null
+    },
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "afflatus.wang.fortress",
+      "icon": [
+        "icons/32.png",
+        "icons/128.png",
+        "icons/256.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ]
+    }
+  }
+}
