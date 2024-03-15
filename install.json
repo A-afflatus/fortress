@@ -1,0 +1,35 @@
+{
+  "version": "v0.0.3",
+  "notes": "- 去除wasm，调试打包后的跳转页",
+  "pub_date": "2024-03-15T12:53:07.766Z",
+  "platforms": {
+    "win64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSCtubG5sV1hRRnhyOW5qTGNZTmhxNUpObDhDR2Rjb2tWa1NvVGJ5VWlXWEZURjczdmRMcHlCZk9YRmZQS05aem5sZDM2aUxvOTlKcnNESnFiWHVpTTRBeEpCSWd4cXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzEwNTA3MTE2CWZpbGU6Zm9ydHJlc3NfMC4wLjNfeDY0X2VuLVVTLm1zaS56aXAKUGpLRkdhRGV1VzUwbEVPc0FRS1hxVnlaWEtlaHI4WlV4c0RLZGpVUkhER2NYK1hzV1o1SjV0eTJDd25YRElxMTJpeEp5b2FKUWkzY1JxQ1YwSEJCQWc9PQo=",
+      "url": "https://github.com/A-afflatus/fortress/releases/download/v0.0.3/fortress_0.0.3_x64_en-US.msi.zip"
+    },
+    "linux": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSCtubG5sV1hRRnkwaUh0WUxYeHR4RThndmJhTnpuTitVS2JSUkRPSGpXYUhOdGEwTnJSMmtkR1V4c3h3NFZMaGdDTllHVE9pK3FFMWJONEUwQU10QTBleVhkSnBWMGdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzEwNTA2NjcwCWZpbGU6Zm9ydHJlc3NfMC4wLjNfYW1kNjQuQXBwSW1hZ2UudGFyLmd6CkY1UU1EUGpiZ3FFOEhheHdEU2lKTGhEeDFUNFVRUXV3S29YdnJHaDM2Z3RvN205TlVnZkRlMGt0SWFhUURRRFUreWtBeXpmalpEblpQMDdISEd3TEN3PT0K",
+      "url": "https://github.com/A-afflatus/fortress/releases/download/v0.0.3/fortress_0.0.3_amd64.AppImage.tar.gz"
+    },
+    "darwin": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSCtubG5sV1hRRjNubWM3KzZzZFYwNFBnZDg1Zm9hSjdwSHFQODQ1Q1V6V3Z6ektvdFB2V3FwMWhtY3MzWEJRaUJ6Z0FnWFk5SFR4ZVhQVUJ2Yjc0NGxvOU5Ec3kvVHdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzEwNTA2NTc3CWZpbGU6Zm9ydHJlc3MuYXBwLnRhci5negpaUGFsQlphRXVodWtuSnZhMjVUeXlEWjh4eitqeHdHYjZRTFE4dGRZR0c5UllTdy9IaEFBeElrb0dCanVsREtpNFVocytnYzJRRXVmUEJZVTI2dC9CUT09Cg==",
+      "url": "https://github.com/A-afflatus/fortress/releases/download/v0.0.3/fortress_x64.app.tar.gz"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSCtubG5sV1hRRjNubWM3KzZzZFYwNFBnZDg1Zm9hSjdwSHFQODQ1Q1V6V3Z6ektvdFB2V3FwMWhtY3MzWEJRaUJ6Z0FnWFk5SFR4ZVhQVUJ2Yjc0NGxvOU5Ec3kvVHdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzEwNTA2NTc3CWZpbGU6Zm9ydHJlc3MuYXBwLnRhci5negpaUGFsQlphRXVodWtuSnZhMjVUeXlEWjh4eitqeHdHYjZRTFE4dGRZR0c5UllTdy9IaEFBeElrb0dCanVsREtpNFVocytnYzJRRXVmUEJZVTI2dC9CUT09Cg==",
+      "url": "https://github.com/A-afflatus/fortress/releases/download/v0.0.3/fortress_x64.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSCtubG5sV1hRRjNubWM3KzZzZFYwNFBnZDg1Zm9hSjdwSHFQODQ1Q1V6V3Z6ektvdFB2V3FwMWhtY3MzWEJRaUJ6Z0FnWFk5SFR4ZVhQVUJ2Yjc0NGxvOU5Ec3kvVHdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzEwNTA2NTc3CWZpbGU6Zm9ydHJlc3MuYXBwLnRhci5negpaUGFsQlphRXVodWtuSnZhMjVUeXlEWjh4eitqeHdHYjZRTFE4dGRZR0c5UllTdy9IaEFBeElrb0dCanVsREtpNFVocytnYzJRRXVmUEJZVTI2dC9CUT09Cg==",
+      "url": "https://github.com/A-afflatus/fortress/releases/download/v0.0.3/fortress_x64.app.tar.gz"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSCtubG5sV1hRRnkwaUh0WUxYeHR4RThndmJhTnpuTitVS2JSUkRPSGpXYUhOdGEwTnJSMmtkR1V4c3h3NFZMaGdDTllHVE9pK3FFMWJONEUwQU10QTBleVhkSnBWMGdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzEwNTA2NjcwCWZpbGU6Zm9ydHJlc3NfMC4wLjNfYW1kNjQuQXBwSW1hZ2UudGFyLmd6CkY1UU1EUGpiZ3FFOEhheHdEU2lKTGhEeDFUNFVRUXV3S29YdnJHaDM2Z3RvN205TlVnZkRlMGt0SWFhUURRRFUreWtBeXpmalpEblpQMDdISEd3TEN3PT0K",
+      "url": "https://github.com/A-afflatus/fortress/releases/download/v0.0.3/fortress_0.0.3_amd64.AppImage.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSCtubG5sV1hRRnhyOW5qTGNZTmhxNUpObDhDR2Rjb2tWa1NvVGJ5VWlXWEZURjczdmRMcHlCZk9YRmZQS05aem5sZDM2aUxvOTlKcnNESnFiWHVpTTRBeEpCSWd4cXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzEwNTA3MTE2CWZpbGU6Zm9ydHJlc3NfMC4wLjNfeDY0X2VuLVVTLm1zaS56aXAKUGpLRkdhRGV1VzUwbEVPc0FRS1hxVnlaWEtlaHI4WlV4c0RLZGpVUkhER2NYK1hzV1o1SjV0eTJDd25YRElxMTJpeEp5b2FKUWkzY1JxQ1YwSEJCQWc9PQo=",
+      "url": "https://github.com/A-afflatus/fortress/releases/download/v0.0.3/fortress_0.0.3_x64_en-US.msi.zip"
+    }
+  }
+}
