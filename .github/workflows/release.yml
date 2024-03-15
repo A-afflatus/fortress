@@ -47,7 +47,7 @@ jobs:
         uses: actions-rs/toolchain@v1
         with:
           toolchain: stable
-    #! 使用 Rust 缓存，加快安装速度 ,这个又问题，调一下
+    # 使用 Rust 缓存，加快安装速度 ,这个又问题，调一下
       - uses: Swatinem/rust-cache@v2
         with:
           workspaces: "./src-tauri"
