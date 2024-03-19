@@ -3,7 +3,6 @@ pub fn setup(app: &mut tauri::App)->Result<(),Box<(dyn std::error::Error + 'stat
     //todo 这有点问题啊，打包后的程序没有显示跳转页
     let splashscreen_window = app.get_window("splashscreen").unwrap();
     let main_window = app.get_window("main").unwrap();
-    splashscreen_window.show().unwrap();
     tauri::async_runtime::spawn(async move {
         println!("应用初始化中...");
         //模拟初始化过程
