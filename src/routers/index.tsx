@@ -2,13 +2,13 @@ import { Navigate, Route, createBrowserRouter, createRoutesFromElements } from '
 import Welcome from '@/pages/Welcome.tsx';
 import App from '@/App.tsx';
 import { HOME, WELCOME } from './constant';
-import RouterConfig from './modules';
+import routerConfig from './modules';
 
 const router = createBrowserRouter(
     createRoutesFromElements(
         <Route path={HOME} element={<App />}>
             <Route path={WELCOME} element={<Welcome />} />
-            {RouterConfig}
+            {routerConfig}
             {/* 兜底跳转 */}
             <Route path={HOME} element={<Navigate to={WELCOME} />} />
         </Route>
